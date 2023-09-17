@@ -1,0 +1,136 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for the header */
+  #site-title-container {
+    background-color: #4285f4;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #site-logo {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+  }
+  
+  h1 {
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Styling for the Google-like header */
+  .google-header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  #header-logo {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+  }
+  
+  /* Styling for the search container */
+  .google-search-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .search-box {
+    position: relative;
+  }
+  
+  input.google-search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  i.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #666;
+  }
+  
+  /* Styling for the language select */
+  .language-select-container {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .language-label {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  select.google-select {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  /* Styling for the search button */
+  button.google-button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the main content */
+  .google-main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for search results */
+  .google-search-results {
+    margin-top: 20px;
+  }
+  
+  /* Styling for placards */
+  .placard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-link {
+    color: #4285f4;
+  }
+  
+  .article-link:hover {
+    text-decoration: underline;
+  }
+  
